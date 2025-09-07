@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para ti 💖</title>
+    <style>
+        body {
+            background-color: #ffe6f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            color: #cc0066;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .decoracion {
+            font-size: 28px;
+            margin: 20px 0;
+        }
+        .mensaje {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 40px 0;
+            line-height: 1.5;
+        }
+        .boton {
+            background-color: #ff99cc;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background-color: #e68ab8;
+        }
+        /* Corazón animado */
+        .corazon {
+            color: red;
+            font-size: 60px;
+            animation: latido 1s infinite;
+        }
+        @keyframes latido {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.2); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="decoracion">🌸🌹💖🌷💕🌺🌼💖🌹🌸</div>
+    
+    <h1>Para ti, mi amor eterno 💕</h1>
+    
+    <div class="corazon">❤️</div>
+    
+    <div class="mensaje">
+        Haz clic abajo para leer algo especial 🌸💍
+    </div>
+    
+    <button class="boton" onclick="mostrarMensaje()">💍 Nuestro amor 💖</button>
+    
+    <div class="decoracion">💖🌸💕🌺🌷💍🌼💕🌸💖</div>
+
+    <script>
+        function mostrarMensaje() {
+            alert("Contigo lo intentaría en esta y mil vidas más, mi amor. ¿Tú también? 💍");
+        }
+    </script>
+</body>
+</html>
